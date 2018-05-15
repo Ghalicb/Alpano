@@ -126,7 +126,7 @@ public final class Alpano extends Application {
      */
     public Alpano() throws IOException {
         cem = getCEM();
-        summits = readSummitsFrom(new File("alps.txt"));
+        summits = readSummitsFrom(new File("res/alps.txt"));
         parameters = new PanoramaParametersBean(
                 PredefinedPanoramas.AlpesDuJura);
         computer = new PanoramaComputerBean(summits, cem);
@@ -189,21 +189,21 @@ public final class Alpano extends Application {
     @SuppressWarnings("resource")
     private ContinuousElevationModel getCEM() {
         HgtDiscreteElevationModel hgt1 = new HgtDiscreteElevationModel(
-                new File("N45E006.hgt"));
+                new File("res/N45E006.hgt"));
         HgtDiscreteElevationModel hgt2 = new HgtDiscreteElevationModel(
-                new File("N45E007.hgt"));
+                new File("res/N45E007.hgt"));
         HgtDiscreteElevationModel hgt3 = new HgtDiscreteElevationModel(
-                new File("N45E008.hgt"));
+                new File("res/N45E008.hgt"));
         HgtDiscreteElevationModel hgt4 = new HgtDiscreteElevationModel(
-                new File("N45E009.hgt"));
+                new File("res/N45E009.hgt"));
         HgtDiscreteElevationModel hgt5 = new HgtDiscreteElevationModel(
-                new File("N46E006.hgt"));
+                new File("res/N46E006.hgt"));
         HgtDiscreteElevationModel hgt6 = new HgtDiscreteElevationModel(
-                new File("N46E007.hgt"));
+                new File("res/N46E007.hgt"));
         HgtDiscreteElevationModel hgt7 = new HgtDiscreteElevationModel(
-                new File("N46E008.hgt"));
+                new File("res/N46E008.hgt"));
         HgtDiscreteElevationModel hgt8 = new HgtDiscreteElevationModel(
-                new File("N46E009.hgt"));
+                new File("res/N46E009.hgt"));
 
         DiscreteElevationModel dem = hgt1.union(hgt2).union(hgt3).union(hgt4)
                 .union(hgt5.union(hgt6).union(hgt7).union(hgt8));
