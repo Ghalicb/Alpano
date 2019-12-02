@@ -1,4 +1,4 @@
-## Introduction 
+## Alpano
   
 The purpose of this project is to represent panoramas of mountains mainly in Switzerland (and a part of France and Italy).
 In this application, the user has to choose many characteristics of an observer (as his position, in which direction he is oriented, etc.), but also some characteristics about the image of the panorama he wants (its height and width). 
