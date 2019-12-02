@@ -14,5 +14,4 @@ In this project, several sources were used, the most important being the followi
 
 - Complementary documentation on Java : https://www.tutorialspoint.com/java/[...].htm
 
-- https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/transmettre-des-donnees-avec-l-url
-	- Explanation on how a URL works (useful to understand the part of the project dedicated to openStreetMap access).
+- Explanation on how a URL works (useful to understand the part of the project dedicated to openStreetMap access): https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/transmettre-des-donnees-avec-l-url
