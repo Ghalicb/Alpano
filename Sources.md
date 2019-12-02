@@ -1,8 +1,6 @@
 ## Source
 
-In this project, multiples sources have been used and one can find most of them here.
-
-It is as much out of respect for the owner of these sources as for the user to be able to carry out in-depth research on the project, if it interests him.
+In this project, several sources were used, the most important being the following.
 
 - Mr. Schinz courses (EPFL) : http://cs108.epfl.ch/archive.html
 	- Most of the guidelines on how to do the project.
